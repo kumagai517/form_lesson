@@ -286,10 +286,17 @@
   background-color: #01bfbd;
   border: none;
   cursor: pointer;
+  outline: none;
 }
 
 .submit:hover {
   background-color: #01a6a4;
+}
+
+.submit:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
 }
 
 .agreement {
@@ -301,6 +308,10 @@
   color: #01a6a4;
 }
 
+.link_color:hover {
+  color: #01bfbd;
+}
+
 .footer {
   margin-top: 32px;
   text-align: center;
@@ -309,6 +320,10 @@
 .footer p , .resend {
   line-height: 16px;
   font-size: 12px;
+}
+
+.footer a:hover {
+  border-bottom: 1px solid #01bfbd;
 }
 
 .resend {
